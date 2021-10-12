@@ -8,22 +8,26 @@
     />
 
     <div class="buttons-container">
-      <button>
-        <img
-          class="button-icon"
-          src="../assets/icons/explore_icon.svg"
-          alt=""
-        />
-        <span>Explorar</span>
-      </button>
-      <button>
-        <img
-          class="button-icon"
-          src="../assets/icons/settings_icon.svg"
-          alt=""
-        />
-        <span>Configurações</span>
-      </button>
+      <a href="/">
+        <button>
+          <img
+            class="button-icon"
+            src="../assets/icons/explore_icon.svg"
+            alt=""
+          />
+          <span>Explorar</span>
+        </button></a
+      >
+      <a href="/settings">
+        <button>
+          <img
+            class="button-icon"
+            src="../assets/icons/settings_icon.svg"
+            alt=""
+          />
+          <span>Configurações</span>
+        </button></a
+      >
     </div>
   </div>
 </template>
@@ -36,7 +40,7 @@ export default {
 
 <style scoped>
 .menu {
-  width: 30vw;
+  width: 25vw;
   padding-left: 50px;
   display: flex;
   flex-direction: column;
@@ -46,7 +50,7 @@ export default {
   width: 28px;
   height: 28px;
   margin-top: 20px;
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 .buttons-container {
@@ -56,10 +60,10 @@ export default {
 }
 
 button {
-	width: 200px;
+  width: 200px;
   height: 50px;
   margin-bottom: 15px;
-	padding: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
