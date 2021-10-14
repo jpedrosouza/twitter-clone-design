@@ -61,6 +61,76 @@
         <span class="tab-text" id="text-sports">Esportes</span>
       </button>
     </div>
+    <div class="feed-cards-container">
+      <div class="highlight-card">
+        <img
+          class="highlight-image"
+          src="https://www.maxmilhas.com.br/blog/wp-content/uploads/2019/05/Mineir%C3%A3o-Est%C3%A1dios-da-Copa-Am%C3%A9rica-2019.jpg"
+          alt=""
+        />
+        <div class="highlight-text-container">
+          <span class="highlight-subtitle"
+            >Campeonato Brasileiro . AO VIVO</span
+          >
+          <span class="highlight-title">Atlético 3 X 1 Santos</span>
+          <span class="highlight-subtitle">Assuntos do Momento: Hulk</span>
+        </div>
+      </div>
+      <div class="news-cards-container">
+        <div class="news-card">
+          <div class="news-card-text-container">
+            <span class="news-card-title">Atlético</span>
+            <span class="news-card-subject"
+              >Mais 3 pontos no Campeonato Brasileiro</span
+            >
+          </div>
+          <img
+            class="news-card-image"
+            src="https://media-exp1.licdn.com/dms/image/C4E0BAQEjCSXYvZGMtw/company-logo_200_200/0/1606332694110?e=2159024400&v=beta&t=EqEHb6y82_wPRPW85Ivcufv_4CBnRUB44YAzqg6P4tQ"
+            alt=""
+          />
+        </div>
+        <div class="news-card">
+          <div class="news-card-text-container">
+            <span class="news-card-title">Flamengo</span>
+            <span class="news-card-subject"
+              >Mais 3 pontos no Campeonato Brasileiro</span
+            >
+          </div>
+          <img
+            class="news-card-image"
+            src="https://i.pinimg.com/originals/4f/0a/b6/4f0ab6e9d01b3936bfdeaea88947cacc.png"
+            alt=""
+          />
+        </div>
+        <div class="news-card">
+          <div class="news-card-text-container">
+            <span class="news-card-title">Atlético</span>
+            <span class="news-card-subject"
+              >Mais 3 pontos no Campeonato Brasileiro</span
+            >
+          </div>
+          <img
+            class="news-card-image"
+            src="https://media-exp1.licdn.com/dms/image/C4E0BAQEjCSXYvZGMtw/company-logo_200_200/0/1606332694110?e=2159024400&v=beta&t=EqEHb6y82_wPRPW85Ivcufv_4CBnRUB44YAzqg6P4tQ"
+            alt=""
+          />
+        </div>
+        <div class="news-card">
+          <div class="news-card-text-container">
+            <span class="news-card-title">Flamengo</span>
+            <span class="news-card-subject"
+              >Mais 3 pontos no Campeonato Brasileiro</span
+            >
+          </div>
+          <img
+            class="news-card-image"
+            src="https://i.pinimg.com/originals/4f/0a/b6/4f0ab6e9d01b3936bfdeaea88947cacc.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -186,5 +256,91 @@ export default {
 .active {
   border-bottom: rgb(29, 155, 240);
   border-style: solid;
+}
+
+.feed-cards-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.feed-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.highlight-card {
+  width: 100%;
+  height: 450px;
+  cursor: pointer;
+}
+
+.highlight-image {
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.highlight-text-container {
+  position: relative;
+  left: 20px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.highlight-subtitle {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.news-cards-container {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.news-card:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+}
+
+.news-card-text-container {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.news-card-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news-card-image {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 20px;
 }
 </style>
