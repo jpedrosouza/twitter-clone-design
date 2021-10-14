@@ -104,7 +104,7 @@ export default {
 }
 
 .terms-container span {
-  color: rgb(29, 155, 240);;
+  color: rgb(29, 155, 240);
   cursor: pointer;
 }
 </style>
