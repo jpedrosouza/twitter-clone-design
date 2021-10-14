@@ -1,24 +1,37 @@
-# twitter-clone-design
+# Twitter Clone Design With VueJs
 
-## Project setup
-```
-npm install
-```
+![Project Image](https://github.com/jpedrosouza/twitter-clone-design/blob/master/example/project-image.jpeg?raw=true)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## What does it consist of?
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Creation of the twitter interface (logged out version) with the main visual characteristics of the page.
 
-### Lints and fixes files
+## Instructions for cloning the repository
+
+First open your command prompt and type:
+
 ```
-npm run lint
+$ git clone https://github.com/jpedrosouza/twitter-clone-design
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+After that, you'll have the code of your project on your computer, so you're ready to run it by following the steps below:
+
+ - Enter the project folder (if you haven't entered it yet).
+
+```
+$ cd twitter-clone-design
+```
+
+- Install npm packages.
+
+```
+$ npm install
+```
+
+- Run the project.
+
+```
+$ npm run serve
+```
+
+Ready! Now you can access the project through the url: http://localhost:8080
